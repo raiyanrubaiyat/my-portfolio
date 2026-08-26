@@ -225,12 +225,11 @@ AccFin-AI/
 
 The structure may change as the project develops.
 
-🎥 Demo
+## 🎥 Demo Video
 
-A 3–5 minute live demonstration will show the current project, explain the service model, demonstrate the working website/project components, and discuss both a design decision and a current limitation.
+A 3–5 minute live demonstration of the current AccFin AI project:
 
-Demo video:
-[Add your video link here]
+[Watch the Demo](https://youtu.be/rmeaCB-vl5M?si=5RjAZBaUvPWNU4pY)
 
 📌 Project Status
 
