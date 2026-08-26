@@ -292,7 +292,100 @@ h3 {
     color: #666;
 }
 
+/* =====================================================
+   ABOUT ME
+===================================================== */
 
+.about-section {
+    padding: 110px 0;
+    background: #f7f7f5;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    gap: 90px;
+    align-items: start;
+}
+
+.about-heading h2 {
+    max-width: 520px;
+}
+
+.about-content {
+    max-width: 680px;
+}
+
+.about-lead {
+    font-size: 1.25rem;
+    line-height: 1.55;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 25px;
+}
+
+.about-content > p:not(.about-lead) {
+    color: #666;
+    font-size: 1.02rem;
+    margin-top: 18px;
+}
+
+.about-focus {
+    margin-top: 40px;
+    padding-top: 25px;
+    border-top: 1px solid #d5d5cf;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.about-focus div {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.about-focus span {
+    color: #146b52;
+    font-size: 0.75rem;
+    font-weight: 800;
+}
+
+.about-focus strong {
+    font-size: 0.95rem;
+}
+
+
+/* =====================================================
+   ABOUT ME — MOBILE
+===================================================== */
+
+@media (max-width: 850px) {
+
+    .about-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+}
+
+@media (max-width: 700px) {
+
+    .about-section {
+        padding: 80px 0;
+    }
+
+    .about-lead {
+        font-size: 1.1rem;
+    }
+
+    .about-focus {
+        grid-template-columns: 1fr 1fr;
+        gap: 18px;
+    }
+
+}
 /* =====================================================
    PROJECTS
 ===================================================== */
